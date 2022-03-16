@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Give me a number:"
+read first
+echo "Give me another:"
+read second
+
+if [[ $(( $first * 2 )) -eq $second ]]
+then
+	echo "The second is double the first!"
+else
+	echo "Those are nice numbers"
+fi

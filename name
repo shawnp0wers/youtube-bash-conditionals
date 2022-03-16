@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "What is your first name?"
+read first
+echo "What is your last name?"
+read last
+
+if [[ ($first == "Jane" || $first == "Suzy") && $last == "Smith" ]]
+then
+	echo "You might be one of the Smith twins!"
+fi

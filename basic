@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if test "Thing" == "Thing" 
+then
+	echo "That was true"
+else
+	echo "That was false"
+fi

@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Are you cool?"
+read cool
+
+case $cool in
+	YES)
+		echo "Nice. Stop yelling."
+		echo "I think my ears are bleeding...";;
+	Yes)
+		echo "Nice. Me too.";;
+	Y)
+		echo "Ok, I guess. But can you spell the word yes?";;
+	y)
+		echo "If cool means the minimum possible effort maybe...";;
+	*)
+		echo "That's ok, hang out with me and you'll get cool";;
+esac
